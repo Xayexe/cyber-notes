@@ -32,7 +32,9 @@ Goals
 - Practice detection thinking
 - Document learning progress over time
 
+
 **Ports and Protocols**
+
 Port 20
 Service: FTP Data
 Transport: TCP
