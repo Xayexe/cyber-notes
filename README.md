@@ -1,71 +1,29 @@
-# Cyber Notes
-Structured cybersecurity notes, and references
+# Cybersecurity Notes
 
-Cyber Notes
+A growing collection of cybersecurity study notes and practical security references, with a focus on networking fundamentals and Blue Team concepts.
 
-Overview
-This repository contains structured cybersecurity notes focused on networking fundamentals, ports and protocols, detection concepts, and tool references. The goal is to build strong foundational knowledge and practical Blue Team thinking.
+## Overview
 
-Current Focus
-- Ports and Protocols
-- Networking Fundamentals
-- Log Analysis Basics
-- Vulnerability Assesment Concenpts
+This repository documents my learning in cybersecurity, including network services, common attack patterns, security tools, and detection ideas. My goal is to connect classroom concepts with real-world defensive security practices.
 
-Structure 
-  Networking
-  - Contains notes on core networking concepts such as OSI model, TCP vs UDP, port ranges, and common services.
+## Current notes
 
-  Ports and Protocols
-  - Documents common ports, associated services, transport protocols, common attacks, and detection ideas.
+- **[Ports and Protocols](networking/ports-and-protocols.md)** — common ports, services, security concerns, and detection clues.
 
-  Blue Team Concepts
-  - Covers common attack patterns, log sources, and detection strategies.
+## Areas I'm studying
 
-  Tools
-  - Notes and references for tools such as nmap, Wireshark, Nessus, and log analysis utilities.
+- Networking fundamentals (OSI model, TCP/UDP, and network services)
+- Blue Team fundamentals (log analysis and detection concepts)
+- Vulnerability assessment concepts
+- Security tools, including Nmap and Wireshark
 
+## Goals
 
-Goals
-- Build fast recall of common ports and services
-- Connect services to real world attack scenarios
-- Practice detection thinking
-- Document learning progress over time
+- Strengthen knowledge of common services and protocols.
+- Relate network activity to possible security events.
+- Practice identifying useful evidence for security analysis.
+- Document learning progress clearly and accurately.
 
+## About
 
-**Ports and Protocols**
-
-Port 20
-Service: FTP Data
-Transport: TCP
-Function: Transfers FTP data channel
-Common Attack: Unencrypted data exposure
-Detection Clue: Plaintext file transfer traffic observed
-
-Port 21
-Service: FTP
-Transport: TCP
-Function: File transfer
-Common Attack: Credential exposure
-Detection Clue: FTP login attempts in network logs
-
-Port 22
-Service: SSH
-Transport: TCP
-Function: Secure remote login
-Common Attack: Brute force attempts
-Detection Clue: Multiple failed authentication attempts
-
-Port 23
-Service: Telnet
-Transport: TCP
-Function: Remote login
-Common Attack: Credential sniffing
-Detection Clue: Cleartext login attempts
-
-Port 25
-Service: SMTP
-Transport: TCP
-Function: Sends email
-Common Attack: Spam relay abuse
-Detection Clue: High outbound email traffic
+I'm a Cybersecurity undergraduate at the University at Albany interested in cyber defense, risk, and data analysis. This repository is a collection of evolving study materials, not a finished professional reference.
