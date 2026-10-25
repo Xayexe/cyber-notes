@@ -1,0 +1,36 @@
+{
+  "events_processed": 15,
+  "failed_logins": 10,
+  "successful_logins": 5,
+  "alerts": [
+    {
+      "type": "POSSIBLE_BRUTE_FORCE",
+      "severity": "medium",
+      "src_ip": "198.51.100.23",
+      "timestamp": "2026-10-25T14:04:00+00:00",
+      "failed_attempts_in_window": 4,
+      "window_minutes": 10,
+      "reason": "Repeated failed logins from one source IP."
+    },
+    {
+      "type": "SUCCESS_AFTER_FAILURES",
+      "severity": "high",
+      "src_ip": "198.51.100.23",
+      "username": "admin",
+      "timestamp": "2026-10-25T14:05:00+00:00",
+      "preceding_failures": 4,
+      "lookback_minutes": 15,
+      "reason": "Successful login followed multiple failures for the same IP and account."
+    },
+    {
+      "type": "POSSIBLE_BRUTE_FORCE",
+      "severity": "medium",
+      "src_ip": "203.0.113.77",
+      "timestamp": "2026-10-25T14:11:00+00:00",
+      "failed_attempts_in_window": 4,
+      "window_minutes": 10,
+      "reason": "Repeated failed logins from one source IP."
+    }
+  ],
+  "disclaimer": "Heuristic alerts from synthetic data; not proof of compromise."
+}
