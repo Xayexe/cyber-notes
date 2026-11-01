@@ -1,0 +1,50 @@
+[
+  {
+    "alert_id": "SSH-001",
+    "host": "jump-01",
+    "account": "analyst",
+    "source_ip": "203.0.113.44",
+    "failure_count": 4,
+    "threshold": 4,
+    "first_failure_utc": "2026-11-01T13:10:00+00:00",
+    "trigger_utc": "2026-11-01T13:13:00+00:00",
+    "success_after_failures": true,
+    "success_utc": "2026-11-01T13:14:00+00:00",
+    "severity": "high",
+    "approved_activity_match": true,
+    "approval_reference": "CHG-2026-1101-004",
+    "triage": "Verify approval ticket and activity scope before closing."
+  },
+  {
+    "alert_id": "SSH-002",
+    "host": "web-01",
+    "account": "svc-backup",
+    "source_ip": "198.51.100.23",
+    "failure_count": 5,
+    "threshold": 4,
+    "first_failure_utc": "2026-11-01T13:00:00+00:00",
+    "trigger_utc": "2026-11-01T13:03:00+00:00",
+    "success_after_failures": true,
+    "success_utc": "2026-11-01T13:05:00+00:00",
+    "severity": "high",
+    "approved_activity_match": false,
+    "approval_reference": null,
+    "triage": "Escalate for account and source validation."
+  },
+  {
+    "alert_id": "SSH-003",
+    "host": "db-01",
+    "account": "root",
+    "source_ip": "198.51.100.88",
+    "failure_count": 5,
+    "threshold": 4,
+    "first_failure_utc": "2026-11-01T13:20:00+00:00",
+    "trigger_utc": "2026-11-01T13:23:00+00:00",
+    "success_after_failures": false,
+    "success_utc": null,
+    "severity": "medium",
+    "approved_activity_match": false,
+    "approval_reference": null,
+    "triage": "Investigate source, account, and related alerts."
+  }
+]
