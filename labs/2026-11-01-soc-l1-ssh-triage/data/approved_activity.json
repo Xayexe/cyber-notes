@@ -1,0 +1,8 @@
+{
+  "203.0.113.44": {
+    "host": "jump-01",
+    "user": "analyst",
+    "ticket": "CHG-2026-1101-004",
+    "context": "Simulated approved authentication test; analyst must verify ticket and scope."
+  }
+}
