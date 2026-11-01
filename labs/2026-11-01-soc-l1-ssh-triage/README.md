@@ -1,7 +1,7 @@
 # SOC Level 1: SSH Alert Triage and Reporting
 
 Date: November 1, 2026
-Track: TryHackMe SOC Level 1, Section 2: SOC Team Internals
+Track: TryHackMe SOC Level 1, Section 1: Blue Team Introduction (SSH alert practice)
 Environment: Python 3.9+, standard library only
 Scope: Synthetic local SSH logs. No external targets.
 
